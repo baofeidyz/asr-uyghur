@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Local files
+.DS_Store
+.env
+.env.*
+*.log
+
+# Model and data artifacts
+models/
+data/
+outputs/
+*.wav
+*.mp3
+*.flac
+*.m4a
